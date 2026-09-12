@@ -17,7 +17,7 @@ from backend.models import (
 )
 from backend.graph import RecipeKnowledgeGraph, load_graph, save_graph
 
-RKG = Namespace("https://cruesli.github.io/recipes/kg/")
+RKG = Namespace("https://magnus-evensen.github.io/recipes/kg/")
 SCHEMA = Namespace("https://schema.org/")
 
 # ---------------------------------------------------------------------------

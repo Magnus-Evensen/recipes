@@ -6,7 +6,7 @@
 > **stateless** query service (`POST /api/v1/query` returns extracted filters only — no graph,
 > no `/recipes`/`/ingredients` endpoints), deployed on Hugging Face Spaces. The LLM provider is
 > env-driven (Gemini default); entity linking uses fixed-depth SPARQL (~90%, was 71%); the
-> namespace is `cruesli.github.io/recipes/kg/` reusing schema.org terms; NL few-shot selection
+> namespace is `magnus-evensen.github.io/recipes/kg/` reusing schema.org terms; NL few-shot selection
 > uses `sentence-transformers` cosine similarity. For current behaviour defer to `CLAUDE.md`,
 > `nlp-integration-update-plan.md`, and `nlp-updates.md`.
 

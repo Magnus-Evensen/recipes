@@ -24,7 +24,7 @@ carried forward at the end.
 > The section below is the original plan, kept for the N1/N4 detail it still describes accurately.
 
 **Repos:** backend = `curesli/NLP-project` (Python / FastAPI / RDFLib);
-frontend = `cruesli/recipes` (Astro).
+frontend = `Magnus-Evensen/recipes` (Astro).
 
 **Guiding posture (unchanged):** categorisation is a **progressive enhancement
 layered onto the current shopping list, never a dependency**. `PUBLIC_NLP_API_URL`

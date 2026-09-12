@@ -18,7 +18,7 @@ from backend.models import (
     WikidataResponse,
 )
 
-RKG = Namespace("https://cruesli.github.io/recipes/kg/")
+RKG = Namespace("https://magnus-evensen.github.io/recipes/kg/")
 SCHEMA = Namespace("https://schema.org/")
 
 

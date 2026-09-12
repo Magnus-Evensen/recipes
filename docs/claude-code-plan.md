@@ -1,6 +1,6 @@
 # Recipe Site — Implementation Plan (Type/Spacing Scales + Editorial Collection & Planner Drawer)
 
-This plan is for Claude Code. It implements two things on the `cruesli/recipes` Astro site:
+This plan is for Claude Code. It implements two things on the `Magnus-Evensen/recipes` Astro site:
 
 1. **Design-system scales** — a tokenised type scale + spacing scale, swept across the whole codebase.
 2. **Editorial collection grid + push-drawer meal planner** on the home page, with a shared planner extracted and reused on `/meal-planner`.

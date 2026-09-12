@@ -1803,7 +1803,7 @@ git commit -m "feat: positioned kitchen-journal margin notes"
 - Create: `src/lib/identity.ts`, `src/lib/journalStore.ts`
 - Modify: `.env` (local), GH Pages build workflow if present
 
-- [ ] **Step 1: CORS spike (decides the origin story — do this first).** In a browser tab on `https://cruesli.github.io/recipes/`, open the console and run:
+- [ ] **Step 1: CORS spike (decides the origin story — do this first).** In a browser tab on `https://magnus-evensen.github.io/recipes/`, open the console and run:
 
 ```js
 fetch('https://mtrecipes.netlify.app/.netlify/identity/settings').then(r => r.json()).then(console.log)

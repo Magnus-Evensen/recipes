@@ -21,7 +21,7 @@ BACKEND = Path(__file__).parent
 TTL_PATH = BACKEND / "graph.ttl"  # written there by the ingest pipeline
 OUT_PATH = BACKEND / "graph.png"
 
-RKG = Namespace("https://cruesli.github.io/recipes/kg/")
+RKG = Namespace("https://magnus-evensen.github.io/recipes/kg/")
 SCHEMA = Namespace("https://schema.org/")
 
 COLORS = {"Recipe": "#E07070", "Ingredient": "#70A0D0", "Nutrition": "#70C070"}

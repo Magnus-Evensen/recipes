@@ -20,7 +20,7 @@ Filter keys are whitelisted to the 12 known fields (`min_protein`, `max_kcal`,
 - `GEMINI_API_KEY` (or `LLM_API_KEY` / legacy `CAMPUSAI_API_KEY`) — the LLM key.
   Provider resolves as a coherent set; Gemini is the default endpoint/model.
 - `ALLOWED_ORIGINS` — comma-separated CORS origins
-  (default `https://cruesli.github.io,http://localhost:4321`).
+  (default `https://magnus-evensen.github.io,http://localhost:4321`).
 - `PORT` — honoured by the container (Cloud Run injects `8080`); defaults to `7860`.
 
 ## Local run

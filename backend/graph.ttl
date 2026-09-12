@@ -1,4 +1,4 @@
-@prefix rkg: <https://cruesli.github.io/recipes/kg/> .
+@prefix rkg: <https://magnus-evensen.github.io/recipes/kg/> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 

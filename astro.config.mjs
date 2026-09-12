@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://cruesli.github.io/recipes",
+  site: "https://magnus-evensen.github.io/recipes",
   base: "/recipes",
   integrations: [react()],
 

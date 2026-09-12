@@ -1,5 +1,5 @@
 site_url: https://mtrecipes.netlify.app
-display_url: "https://cruesli.github.io/recipes/"
+display_url: "https://magnus-evensen.github.io/recipes/"
 backend:
   name: git-gateway
   branch: main

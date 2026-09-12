@@ -47,7 +47,7 @@ accurate and self-consistent when you touch them.
 - **Astro 5** + **React 19** islands, **Tailwind v4** (utilities are barely used — the design
   system lives in `@theme` tokens + custom CSS + inline styles; don't Tailwind-ify everything).
 - **EB Garamond** (all-serif identity). Lucide icons. `react-simple-maps` for the world map.
-- Hosting: **GitHub Pages** (`astro.config.mjs`: site `cruesli.github.io`, base `/recipes`).
+- Hosting: **GitHub Pages** (`astro.config.mjs`: site `magnus-evensen.github.io`, base `/recipes`).
   CMS: **Decap** at `/admin` — keep token/structure changes CMS-safe.
 
 **Backend** (`backend/`) — two roles:
@@ -120,7 +120,7 @@ accurate and self-consistent when you touch them.
   dietary flags.
 - `nutrition.py` — USDA FoodData Central API → full nutrient profile per ingredient, with
   raw/fresh scoring + Atwater energy fallback; overrides win.
-- `graph.py` — RDFLib knowledge graph (`rkg:` namespace at `cruesli.github.io/recipes/kg/`,
+- `graph.py` — RDFLib knowledge graph (`rkg:` namespace at `magnus-evensen.github.io/recipes/kg/`,
   reusing `schema.org` terms where natural). `per_serving_totals` is the shared nutrition math.
 - `step_linker.py` — LLM-links each step's prose to the ingredient lines it uses (phrase + line
   index) for the inline-amount annotations; cached in `.cache/steplinks.json`.

@@ -158,7 +158,7 @@ app = FastAPI(title="Recipe NL Query Service", version="2.0.0")
 # CORS: production origin(s) + local dev, from env (comma-separated).
 _ALLOWED_ORIGINS = [
     o.strip() for o in
-    os.getenv("ALLOWED_ORIGINS", "https://cruesli.github.io,http://localhost:4321").split(",")
+    os.getenv("ALLOWED_ORIGINS", "https://magnus-evensen.github.io,http://localhost:4321").split(",")
     if o.strip()
 ]
 app.add_middleware(
