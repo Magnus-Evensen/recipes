@@ -279,6 +279,9 @@ carry site-voice copy, not default-app English.
   instant navigation, no content rise**; unsupported browsers get the crossfade.
 - **Splash pot:** slow steam loop at idle; ~500 ms lid rattle-hop + puff on dismiss, concurrent
   with the scroll-away. Reduced motion: fully static.
+- **Eased wheel scrolling (Lenis, `lerp` 0.1):** the page follows the wheel with a short glide,
+  with no rubber band at the ends. Touch stays native. Reduced motion: native wheel, instant
+  programmatic scrolls.
 - Calm elsewhere. **Not** a fluid-everywhere treatment.
 
 ---

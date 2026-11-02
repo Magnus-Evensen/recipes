@@ -10,6 +10,7 @@ import {
   type RecipeData,
 } from './usePlanner';
 import { CATEGORY_LABELS, normaliseCategory } from '../lib/enrichment';
+import { smoothScrollTo } from '../lib/smoothScroll';
 import { DEFAULT_BUCKET_ORDER } from '../lib/shoppingList.mjs';
 
 const SERIF = "'EB Garamond', Georgia, serif";
@@ -166,7 +167,7 @@ export function MealPlannerIsland({ recipes, basePath }: Props) {
 
   function handleGenerateList() {
     generateList();
-    setTimeout(() => shoppingRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+    setTimeout(() => shoppingRef.current && smoothScrollTo(shoppingRef.current), 100);
   }
 
   return (

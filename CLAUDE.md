@@ -107,7 +107,8 @@ accurate and self-consistent when you touch them.
   `regionGeometry.mjs` (shared map projection + feature keying — `WorldMap.tsx` and the prebuild
   scripts must stay in agreement through it), plus `enrichment.ts`. Non-pure browser clients for
   annotate mode (not node-tested): `identity.ts` (Netlify Identity/GoTrue) + `journalStore.ts`
-  (git-gateway journal writes), both gated by `PUBLIC_ANNOTATE_ORIGIN`.
+  (git-gateway journal writes), both gated by `PUBLIC_ANNOTATE_ORIGIN`. `smoothScroll.ts` (Lenis
+  wrapper) is also a browser client.
 - `src/styles/global.css` — `@theme` design tokens (colour / type scale / spacing scale / radius)
   + base styles. `src/data/seasonal.ts`. `src/utils/` (cuisines, slug display, base path).
 
@@ -174,6 +175,14 @@ accurate and self-consistent when you touch them.
   one `localStorage` session (survives mid-shop reloads; any week edit or regenerate resets it).
   Buckets collapse via their header (collapsed shows "· N left"); reordering re-sorts live during
   drag, with an oxblood outline marking the held chip.
+
+- **Smooth scroll:** one vanilla Lenis instance (`src/lib/smoothScroll.ts`, started from a module
+  script in `BaseLayout`, not `<ReactLenis>` — there is no shared React root) and recreated on
+  `astro:after-swap`, because the router's swap wipes Lenis's classes off `<html>`. It writes the
+  real `scrollY`, so sticky/fixed/router restore are unaffected. Touch and reduced-motion wheel
+  stay native. Programmatic scrolls must go through `smoothScrollTo` / `jumpToTop` or they fight
+  its per-frame write. `autoToggle` is deliberately off: if something ever locks `<html>`, stop
+  Lenis explicitly.
 
 ## NLP / KG integration (shipped — see `nlp-integration-update-plan.md`)
 

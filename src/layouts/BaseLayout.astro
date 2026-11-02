@@ -2,6 +2,7 @@
 import { withBase } from "../utils/withBase";
 import { getCollection } from "astro:content";
 import { ClientRouter } from "astro:transitions";
+import "lenis/dist/lenis.css";
 import "../styles/global.css";
 import { PlannerDrawer } from "../components/PlannerDrawer";
 import { deriveTotalTime } from "../lib/recipeTime.mjs";
@@ -111,6 +112,14 @@ const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
         client:load
       />
     )}
+
+    <script>
+      // Smooth wheel scrolling: module script, so one instance per document
+      import { startSmoothScroll } from "../lib/smoothScroll";
+
+      startSmoothScroll();
+      document.addEventListener("astro:after-swap", startSmoothScroll);
+    </script>
 
     <script>
       // Brand link brings the splash back: clear the wiped flag on any page; on

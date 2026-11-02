@@ -83,6 +83,7 @@ import { SEASONAL_ITEMS, SEASON_LABEL } from '../data/seasonal';
 
 <script>
   import { seasonalFor } from '../data/seasonal';
+  import { jumpToTop } from '../lib/smoothScroll';
 
   type SplashEl = HTMLElement & { _splashInit?: boolean; _splashShow?: () => void };
 
@@ -120,7 +121,7 @@ import { SEASONAL_ITEMS, SEASON_LABEL } from '../data/seasonal';
       el.style.opacity = '';
       el.style.pointerEvents = '';
       el.style.display = ''; // display toggle restarts the entrance animations
-      window.scrollTo(0, 0);
+      jumpToTop();
       active = true;
     }
     el._splashShow = show;
