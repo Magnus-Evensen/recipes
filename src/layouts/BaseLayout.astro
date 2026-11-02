@@ -104,6 +104,8 @@ const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
       </nav>
     </footer>
 
+    <div class="scroll-rail" aria-hidden="true"><div class="scroll-rail-fill"></div></div>
+
     {showPlanner && (
       <PlannerDrawer
         recipes={allRecipes}
@@ -119,6 +121,23 @@ const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
 
       startSmoothScroll();
       document.addEventListener("astro:after-swap", startSmoothScroll);
+    </script>
+
+    <script>
+      // Scroll rail: progress = scrollY over the scrollable range. A page that
+      // can't scroll stays empty. The observer catches height changes (filters,
+      // drawer push, a new shopping list); the swap brings a fresh rail element.
+      const updateRail = () => {
+        const fill = document.querySelector<HTMLElement>(".scroll-rail-fill");
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+        if (fill) fill.style.transform = `scaleY(${progress})`;
+      };
+
+      window.addEventListener("scroll", updateRail, { passive: true });
+      new ResizeObserver(updateRail).observe(document.documentElement);
+      document.addEventListener("astro:after-swap", updateRail);
+      updateRail();
     </script>
 
     <script>

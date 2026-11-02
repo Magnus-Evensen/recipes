@@ -10,7 +10,7 @@ let lenis: Lenis | null = null;
 export function startSmoothScroll() {
   lenis?.destroy();
   lenis = new Lenis({
-    lerp: 0.1, // 0.07 floatier, 0.14 tighter
+    lerp: 0.14, // lower is floatier, higher tighter
     // Reduced motion: native wheel. Lenis's own fallback still glides ~7 frames;
     // it does make smoothScrollTo instant by itself.
     smoothWheel: !window.matchMedia('(prefers-reduced-motion: reduce)').matches,

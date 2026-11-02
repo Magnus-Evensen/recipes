@@ -569,9 +569,9 @@ export function WorldMap({ recipeCuisines, cuisinesData, basePath }: Props) {
 
       {/* ── Hint text (bottom-right, above buttons) ──────────── */}
       <p
+        className="worldmap-corner"
         style={{
           position: 'absolute',
-          right: 'var(--space-md)',
           bottom: 'calc(var(--space-md) + 64px)',
           fontSize: 'var(--text-eyebrow)',
           fontStyle: 'italic',
@@ -586,9 +586,9 @@ export function WorldMap({ recipeCuisines, cuisinesData, basePath }: Props) {
 
       {/* ── +/− zoom buttons (bottom-right) ──────────────────── */}
       <div
+        className="worldmap-corner"
         style={{
           position: 'absolute',
-          right: 'var(--space-md)',
           bottom: 'var(--space-md)',
           display: 'flex',
           flexDirection: 'column',

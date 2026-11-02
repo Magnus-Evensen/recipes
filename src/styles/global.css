@@ -48,7 +48,19 @@
 
 :root {
   --max: 980px; /* reading width: header inner, .container, detail layouts */
+  --planner-w: 340px;
+  --planner-tab-w: 32px;
+  /* One-line site header; wraps to two lines on phones (see below) */
+  --header-h: calc(2 * var(--space-sm) + 1.6 * var(--text-meta) + 1px);
 }
+
+@media (max-width: 560px) {
+  :root { --header-h: calc(2 * var(--space-sm) + 3.2 * var(--text-meta) + var(--space-2xs) + 1px); }
+}
+
+/* Native page scrollbar off: the scroll rail below replaces it */
+html { scrollbar-width: none; }
+html::-webkit-scrollbar { display: none; }
 
 * { box-sizing: border-box; }
 
@@ -134,6 +146,30 @@ body {
   .header-inner { flex-wrap: wrap; row-gap: var(--space-2xs); }
 }
 
+/* ── Scroll rail: neutral line, oxblood fills it top-down with page progress.
+   Doubles as the planner drawer's edge, and moves with it; 180ms matches the drawer. */
+.scroll-rail {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  z-index: 41; /* above the drawer (40), under the splash (50) */
+  background: var(--color-stone);
+  pointer-events: none;
+  transition: right 180ms ease;
+}
+.scroll-rail-fill {
+  height: 100%;
+  background: var(--color-oxblood);
+  transform: scaleY(0);
+  transform-origin: top;
+}
+@media (min-width: 769px) {
+  body:has(.pd-drawer) .scroll-rail { right: calc(var(--planner-tab-w) - 2px); }
+  body:has(.pd-drawer.open) .scroll-rail { right: calc(var(--planner-w) - 2px); }
+}
+
 /* ── Layout ──────────────────────────────────────────────────── */
 .container { max-width: var(--max); margin: 0 auto; padding: var(--space-md) var(--space-lg); }
 
@@ -192,6 +228,11 @@ hr { border: none; border-top: 1px solid var(--color-hairline); margin: var(--sp
 
 /* ── World map ───────────────────────────────────────────────── */
 .worldmap-frame { height: clamp(520px, 86vh, 1040px); }
+/* Bottom-right map controls: clear of the closed planner tab */
+.worldmap-corner { right: var(--space-md); }
+@media (min-width: 769px) {
+  .worldmap-corner { right: calc(var(--space-md) + var(--planner-tab-w)); }
+}
 @media (max-width: 767px) {
   .worldmap-frame { height: 60vh; }
 }

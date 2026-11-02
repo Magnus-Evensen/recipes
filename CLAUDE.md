@@ -184,6 +184,11 @@ accurate and self-consistent when you touch them.
   its per-frame write. `autoToggle` is deliberately off: if something ever locks `<html>`, stop
   Lenis explicitly.
 
+- **Scroll rail:** the native page scrollbar is hidden; `.scroll-rail` in `BaseLayout` shows progress
+  instead and doubles as the drawer's edge. It follows the drawer through `body:has(.pd-drawer…)`,
+  so it is one element on every page. `--planner-w` / `--planner-tab-w` in `global.css` are the only
+  source of the drawer's widths.
+
 ## NLP / KG integration (shipped — see `nlp-integration-update-plan.md`)
 
 Implemented static-first, diverging from the plan's original runtime-API shape:

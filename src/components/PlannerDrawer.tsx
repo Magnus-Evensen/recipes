@@ -16,9 +16,6 @@ interface Props {
   currentRecipe?: RecipeData | null;
 }
 
-const DRAWER_W = 340;
-const TAB_W = 32;
-
 const EYEBROW: React.CSSProperties = {
   fontFamily: "'EB Garamond', Georgia, serif",
   fontWeight: 600,
@@ -52,7 +49,7 @@ export function PlannerDrawer({ recipes, basePath, currentRecipe = null }: Props
   // Push page content when drawer opens; mobile never pushes
   useEffect(() => {
     if (window.innerWidth >= 768) {
-      document.body.style.paddingRight = drawerOpen ? `${DRAWER_W}px` : '0px';
+      document.body.style.paddingRight = drawerOpen ? 'var(--planner-w)' : '0px';
     }
   }, [drawerOpen]);
 
@@ -175,15 +172,14 @@ export function PlannerDrawer({ recipes, basePath, currentRecipe = null }: Props
           top: 0;
           height: 100vh;
           z-index: 40;
-          width: ${TAB_W}px;
+          width: var(--planner-tab-w);
           overflow: hidden;
           transition: width 180ms ease;
-          border-left: 2px solid var(--color-oxblood);
           background: var(--color-paper);
         }
-        .pd-drawer.open { width: ${DRAWER_W}px; }
+        .pd-drawer.open { width: var(--planner-w); }
         .pd-drawer-inner {
-          width: ${DRAWER_W}px;
+          width: var(--planner-w);
           height: 100%;
           position: relative;
           display: flex;
@@ -192,7 +188,7 @@ export function PlannerDrawer({ recipes, basePath, currentRecipe = null }: Props
         .pd-tab {
           position: absolute;
           left: 0; top: 0; bottom: 0;
-          width: ${TAB_W}px;
+          width: var(--planner-tab-w);
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -206,7 +202,7 @@ export function PlannerDrawer({ recipes, basePath, currentRecipe = null }: Props
         .pd-tab:hover { background: rgba(41,47,23,0.025); }
         .pd-panel {
           position: absolute;
-          left: ${TAB_W}px; right: 0; top: 0; bottom: 0;
+          left: var(--planner-tab-w); right: 0; top: 0; bottom: 0;
           display: flex;
           flex-direction: column;
           opacity: 0;
@@ -257,7 +253,7 @@ export function PlannerDrawer({ recipes, basePath, currentRecipe = null }: Props
       >
         <div className="pd-drawer-inner">
 
-          {/* Tab spine — always TAB_W wide, visible in both states */}
+          {/* Tab spine — always --planner-tab-w wide, visible in both states */}
           <button
             className="pd-tab"
             onClick={toggleDrawer}

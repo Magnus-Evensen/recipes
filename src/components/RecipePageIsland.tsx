@@ -330,8 +330,9 @@ export function RecipePageIsland({
         }
       `}</style>
 
-      {/* ── Hero (100vh) ── */}
-      <div style={{ height: 'calc(100vh - 60px)', display: 'flex', flexDirection: 'column' }}>
+      {/* ── Hero: "All recipes" through the metadata fit the first screen; the image
+             takes what's left. svh = the viewport with a phone's browser bars showing. ── */}
+      <div style={{ minHeight: 'calc(100svh - var(--header-h) - 60px)', display: 'flex', flexDirection: 'column' }}>
 
         {/* Back + title */}
         <div style={{ maxWidth: '900px', margin: '0 auto', padding: 'var(--space-xl) var(--space-lg) var(--space-lg)', width: '100%', flexShrink: 0 }}>
@@ -355,15 +356,15 @@ export function RecipePageIsland({
         </div>
 
         {/* Hero image */}
-        <div style={{ flex: 1, overflow: 'hidden', minHeight: 0 }}>
+        <div style={{ flex: 1, overflow: 'hidden', minHeight: 0, position: 'relative' }}>
           {image ? (
             <img
               src={`${basePath}${image}`}
               alt={title}
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
             />
           ) : (
-            <div style={{ width: '100%', height: '100%', backgroundColor: 'var(--color-stone)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div style={{ position: 'absolute', inset: 0, backgroundColor: 'var(--color-stone)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <ChefHat size={48} color="var(--color-ink-muted)" />
             </div>
           )}
