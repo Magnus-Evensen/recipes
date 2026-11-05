@@ -2,8 +2,9 @@
 dish: Gulyásleves
 slug: gulyasleves
 origin: Alföld (Great Hungarian Plain)
-status: researched
+status: cooked
 researched: 2026-09-15
+cooked: 2026-11-05
 ---
 
 ## Read this first — you may have asked for a different dish
@@ -192,22 +193,60 @@ the base keeps improving and only the perishable parts are redone.
 One line: long-cooked collagen, and otherwise mostly onion, root vegetables and water. Good on
 that axis. No change to the recipe on that account.
 
+### What actually got cooked — 2026-11-05
+
+Four servings. The hock, the parsley root, the csipetke and the lard all came out before cooking,
+and the result was good enough to graduate. Those were four things specified above that the dish
+turned out not to need, which says the version written here was padded — partly out of the corpus,
+partly hedging a first cook. The lean version is the baseline now; `recipes/gulyasleves.md` is it.
+
+- **No hock.** Bacon fat alone carried the base.
+- **No lard.** 70 g of smoked streaky renders enough to fry the onion. A spoon of neutral oil
+  covers a lean batch.
+- **No parsley root, celeriac in.** Not missed.
+- **No csipetke.** Not missed either, with 400 g of potato already in the pot.
+- **Vegetable order corrected.** The 15-minute head start for the root vegetables in the base
+  recipe above is wrong: a 2 cm potato cube and a 1 cm carrot dice are closer in cooking time than
+  that, and the stagger overcooked the carrot. Five minutes is the right gap.
+
+**Salt — the base recipe's figure was wrong.** 0.8% of finished weight is too high for this soup,
+for two reasons: it assumes an unsalted base, and 70 g of cured smoked bacon both adds salt
+directly and amplifies the perception of it. The weigh-the-pot method was also unusable in
+practice — a 0.1 g coffee scale cannot weigh a four-kilo Dutch oven, which is a kitchen fact that
+should have ruled the method out before it was written down.
+
+**Empirical figure: ~8 g total for four servings, about 2 g per serving.** 10 g read slightly
+salty. The recipe file splits it 6 g on the meat and ~2 g to finish, which is only ~0.6% of meat
+weight at the first stage — deliberately below the 1–1.5% braise rule, because the bacon is
+covering the difference. Scale per serving, taste at the end, and don't weigh the pot.
+
 ## Open questions
 
 - **Sear or don't.** Worth cooking the traditional way first, then A/B-ing a seared batch. My
   guess is the sear is a small gain for a real disruption to the paprika step, but it's a guess.
-- **Does the hock actually close the gap?** The whole pork adaptation rests on the claim that hock
-  collagen substitutes for shin collagen. Untested. Worth cooking once without it to know what it
-  buys.
-- **Is the smoked bacon too much?** Smoke is assertive and paprika is the point of this dish. If
-  the first batch tastes of bacon rather than paprika, halve it or go unsmoked.
+- **Does the hock actually close the gap?** Still open, and the first cook did not settle it. The
+  soup did not feel thin without the hock — the onion, pepper and tomato broke down into the broth
+  and gave it mouthfeel on their own, which is the *párolás–zsírjára pirítás* cycling working
+  without any collagen at all. But that pot ran short on liquid (the salt arithmetic proves it), so
+  what was tested was "no hock at high concentration", not "no hock". At proper soup length it
+  might still matter. May never need answering, since the short version is the better soup.
+- ~~**Is the smoked bacon too much?**~~ **Answered: no.** Paprika dominated, bacon did not shout.
+  70 g per four servings stands. This also retires the worry about dull-looking paprika — the
+  bazar's orange-rather-than-red powder was fine, and the smell test is the one that predicts the
+  result, not colour through a plastic bag.
 - **Onion at 30% vs 100%.** The 1:1 bogrács ratio is the older tradition and it's a large enough
   jump that it probably changes the dish, not just the body. Untested.
 - **Frying the pepper and tomato first** (Fördős) against adding them to the finished base. A
   single-variable test, cheap to run.
 - **Caraway quantity.** Fördős's heaped tablespoon per 600 g is four times most recipes. Worth
   knowing whether that's the point of the dish or a personal excess.
-- **Whether the csipetke earns its place**, given how much potato is already in it.
+- ~~**Whether the csipetke earns its place**~~ **Answered: it doesn't**, at least not alongside
+  400 g of potato. Omitted and not missed.
+- **Liquid at proper soup length.** The first cook ran short and was better for it. Worth cooking
+  once at the full ~250–300 ml per person to know whether the concentration is doing the work the
+  hock was supposed to do.
+- **What to do about `recipes/goulash.md`**, the June 2026 entry — a different, unsourced take on
+  the same dish, and the site now carries both.
 
 ## Sources
 
