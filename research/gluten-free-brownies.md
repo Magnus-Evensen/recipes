@@ -135,6 +135,19 @@ gluten-safe, nut-safe and milk-free at once. What I found:
   needs only a clean cocoa powder. Not designed yet; it needs more oil and sugar to make up for
   the cocoa butter and sugar the chocolate was supplying.
 
+**Variant: Berit Smøremyk Melkefri instead of oil (the household's usual butter replacement).**
+Label (matinfo, Open Food Facts): rapeseed oil 62%, water, shea butter 7%, coconut fat 6%, salt,
+rapeseed lecithin, natural flavour, vitamins A and D2. 75 g fat, 16 g saturated, 1.0 g salt per 100 g;
+water is not stated (≈23–24 g by difference, my estimate). No milk or nut ingredient, and no
+"may contain" line in the two databases I could read; the allergen Ja/Nei fields were not visible.
+Same GTIN is listed as "Melkefri" and "Rapskokos", so buy the pack that says Melkefri.
+- **Swap:** 273 g smøremyk replaces the 205 g oil (same 205 g fat, ≈65 g water, 2.7 g salt).
+  Added salt drops from 6.5 g to 4.0 g (total ≈6.7 g, 0.42% of ≈1,613 g).
+- **Cost:** water rises, so sugar:water falls from ≈2.4 to ≈1.8, under the single-source "≥2×" rule
+  for the shiny top. Hybrid if the top is dull: 140 g smøremyk + 100 g oil + 5.3 g added salt
+  (sugar:water ≈2.1, same fat, same 0.42%).
+- **Open:** shea and coconut count as nuts for some people; ask whether she eats them already.
+
 **Contested calls:**
 - **No almond, no baking powder.** Almond is the dominant GF base in the sources but is off the
   brief. Leavening is dropped for density; the sources that use it are making a cakier brownie.
@@ -202,11 +215,19 @@ No test yet.
 10. **Caramel option (if wanted).** A cooled caramel swirl added after spreading, about 120 g. Most
     caramel contains butter or cream, so it must be made milk-free, which adds work. Adds water and
     sugar, so risks a gummier centre.
-11. **Meny and Sunkost stock.** Not verified. Check shelves for Møllerens Fin Melblanding first,
+11. **Berit smøremyk vs oil.** Does the spread's water cost shine or chew, or does its butter-like
+    behaviour help? Shea and coconut acceptable for the nut restriction?
+12. **Meny and Sunkost stock.** Not verified. Check shelves for Møllerens Fin Melblanding first,
     and for a qualifying chocolate.
 
 ## Sources
 
+- Berit Smøremyk Melkefri — matinfo.no (no). Ingredient list, 75 g fat, 1.0 g salt per 100 g.
+  <https://produkter.matinfo.no/eksportpdf?gtin=07071319024981>
+- Smøremyk Melkefri 400g Berit — Open Food Facts (en). Same ingredient list and nutrition.
+  <https://world.openfoodfacts.org/product/7071319024981/sm%C3%B8remyk-melkefri-400g-berit-bonaventura-sales>
+- Berit Nordstrand Smøremyk Rapskokos — matoppskrift.no (no). Described as milk-free and vegan.
+  <https://www.matoppskrift.no/ingrediens/berit-nordstrand-smoeremyk-rapskokos-250-gr>
 - Møllerens: new gluten-free flour blends (no). Fin and Grov Melblanding are flour and starch only,
   no added salt, sugar, fat or baking powder; licensed by Norsk Cøliakiforening; retailer list.
   <https://www.mynewsdesk.com/no/moellerens/pressreleases/nytt-loeft-av-glutenfri-bakst-fra-moellerens-2424857>
