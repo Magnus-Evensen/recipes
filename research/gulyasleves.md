@@ -245,8 +245,10 @@ covering the difference. Scale per serving, taste at the end, and don't weigh th
 - **Liquid at proper soup length.** The first cook ran short and was better for it. Worth cooking
   once at the full ~250–300 ml per person to know whether the concentration is doing the work the
   hock was supposed to do.
-- **What to do about `recipes/goulash.md`**, the June 2026 entry — a different, unsourced take on
-  the same dish, and the site now carries both.
+- ~~**What to do about `recipes/goulash.md`**~~ **Resolved 2026-11-05: removed.** The June 2026
+  entry was a different, unsourced take — beef chuck, tomato paste, bell peppers, bay leaves,
+  soured cream, a hard sear — written before `STYLE.md` and carrying the labelled step prefixes
+  and restated quantities that file names as not the house voice. `gulyasleves` replaces it.
 
 ## Sources
 
