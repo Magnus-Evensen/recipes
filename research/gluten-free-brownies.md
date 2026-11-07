@@ -2,7 +2,7 @@
 dish: Gluten-free, milk-free brownies (fudgy, chewy, gooey; nut-free)
 slug: gluten-free-brownies
 origin: United States — the American pan brownie; gluten-free, milk-free and nut-free by brief, made with Norwegian-market ingredients
-status: researched
+status: tested
 researched: 2026-11-06
 ---
 
@@ -187,7 +187,17 @@ Same GTIN is listed as "Melkefri" and "Rapskokos", so buy the pack that says Mel
 
 ## My deviations
 
-No test yet.
+**First bake, 7 November 2026 (partial: tasted warm, not cooled).** Details beyond these weren't
+recorded; otherwise the Berit smøremyk base recipe was followed at 0.2 scale (about 323 g batter).
+
+- **Small batch, small amounts in spoons.** 0.2× (1 egg + 1 yolk, 54 g beaten); coffee, salt, vanilla
+  (and possibly cocoa and flour) measured by spoon because the scale was not precise enough for
+  1 g. Pan or pot used, and coffee form (grounds or liquid espresso), not recorded.
+- **Bake:** pulled at about 27 minutes, centre about 90 °C, "slightly undercooked". Eaten warm, before
+  cooling, so the set is not judged.
+- **Result:** taste great; top crackly; texture not too cakey. He would like it a bit denser and
+  fudgier, but called the current texture acceptable and is happy with it.
+- **Not yet tested:** cooled-down texture, overnight at room temperature, and cold vs reheated.
 
 ## Open questions
 
@@ -201,7 +211,8 @@ No test yet.
    centre → raise to 125–130 g; too firm → drop to 95 g.
 4. **Water add-back.** Oil brings none of butter's ≈40 g water. If the batter looks stiff or the
    crumb dry, try 30–40 g water; otherwise leave it out.
-5. **Bake endpoint.** Where does 88–90 °C at the centre actually land on the wobble and skewer
+5. **Bake endpoint.** First bake: 90 °C at 27 min still read slightly underdone warm, so the 88–90 °C
+   target may be low or just a warm reading; judge after cooling. Where does 88–90 °C at the centre actually land on the wobble and skewer
    signals, and how long does it take in the user's tray?
 6. **Cold vs reheated.** Is cold chewier and better, or is the reheated gooey version clearly
    the target? Expect cold to be firmer after starch firming overnight, and oil sets firmer when
