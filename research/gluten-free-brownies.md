@@ -198,7 +198,11 @@ recorded; otherwise the Berit smøremyk base recipe was followed at 0.2 scale (a
   cooling, so the set is not judged.
 - **Result:** taste great; top crackly; texture not too cakey. He would like it a bit denser and
   fudgier, but called the current texture acceptable and is happy with it.
-- **Not yet tested:** cooled-down texture, overnight at room temperature, and cold vs reheated.
+- **Next day (cooled, overnight at room temperature):** denser than warm, tastes even better cooled.
+  Top matte rather than shiny, but crackly and not soft; it looked the same out of the oven. Decision:
+  keep the base recipe unchanged for the full batch (no flour or egg change). Full batch baked about
+  6–7 hours before serving, then reheated.
+- **Not yet tested:** reheated vs cold; the full 22 × 32 cm batch.
 
 ## Open questions
 
