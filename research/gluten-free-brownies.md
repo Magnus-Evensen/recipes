@@ -192,7 +192,8 @@ recorded; otherwise the Berit smøremyk base recipe was followed at 0.2 scale (a
 
 - **Small batch, small amounts in spoons.** 0.2× (1 egg + 1 yolk, 54 g beaten); coffee, salt, vanilla
   (and possibly cocoa and flour) measured by spoon because the scale was not precise enough for
-  1 g. Pan or pot used, and coffee form (grounds or liquid espresso), not recorded.
+  1 g. Pan: 14 cm (shape not stated; a 14 cm round holds the batter ~1.7 cm deep, a 14 × 14 cm
+  square only ~1.35 cm). Coffee: grounds from a Nespresso pod.
 - **Bake:** pulled at about 27 minutes, centre about 90 °C, "slightly undercooked". Eaten warm, before
   cooling, so the set is not judged.
 - **Result:** taste great; top crackly; texture not too cakey. He would like it a bit denser and
