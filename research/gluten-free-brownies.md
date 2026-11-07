@@ -194,6 +194,11 @@ recorded; otherwise the Berit smøremyk base recipe was followed at 0.2 scale (a
   (and possibly cocoa and flour) measured by spoon because the scale was not precise enough for
   1 g. Pan: 14 cm (shape not stated; a 14 cm round holds the batter ~1.7 cm deep, a 14 × 14 cm
   square only ~1.35 cm). Coffee: grounds from a Nespresso pod.
+- **Eggs were yolk-heavy, by a wording slip.** The 0.2 instructions said to beat 1 egg + 1 yolk and
+  weigh out 54 g. That gives ~40 g whole egg + ~14 g yolk, about 1:1 yolk to white, not the base
+  recipe's 250 g whole + 20 g yolk (≈2:3 yolk to white, 5 eggs + 1 yolk). Scaled ×5 the test was ≈
+  4 whole eggs + 4 yolks (~270 g). This is the yolk-swap variant tested earlier in the session
+  (more fat, fewer whites): denser, matte-but-crackly top. Final full batch uses 4 whole + 4 yolks.
 - **Bake:** pulled at about 27 minutes, centre about 90 °C, "slightly undercooked". Eaten warm, before
   cooling, so the set is not judged.
 - **Result:** taste great; top crackly; texture not too cakey. He would like it a bit denser and
