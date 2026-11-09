@@ -24,6 +24,7 @@
     { "slug": "southeast-asia",   "label": "Southeast Asia",   "parent": null },
     { "slug": "oceania",          "label": "Oceania",          "parent": null },
     { "slug": "north-america",    "label": "North America",    "parent": null },
+    { "slug": "american",         "label": "American",         "parent": "north-america" },
     { "slug": "central-america",  "label": "Central America",  "parent": null },
     { "slug": "mexican",          "label": "Mexican",          "parent": "central-america" },
     { "slug": "south-america",    "label": "South America",    "parent": null },

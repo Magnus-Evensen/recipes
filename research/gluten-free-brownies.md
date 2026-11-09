@@ -2,7 +2,7 @@
 dish: Gluten-free, milk-free brownies (fudgy, chewy, gooey; nut-free)
 slug: gluten-free-brownies
 origin: United States — the American pan brownie; gluten-free, milk-free and nut-free by brief, made with Norwegian-market ingredients
-status: tested
+status: graduated
 researched: 2026-11-06
 ---
 
