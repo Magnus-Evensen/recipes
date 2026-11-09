@@ -11,26 +11,26 @@ prepTimeMinutes: 15
 cookTimeMinutes: 20
 ingredients: |-
   Tare:
-  - 45ml Japanese soy sauce (Kikkoman or similar, not Chinese light soy)
+  - 45ml Light soy sauce (preferably Japanese)
   - 45ml Mirin
-  - 45ml Ryorishu (if using drinking sake, double the salt on the chicken)
+  - 45ml Ryorishu (sake: a pinch more salt; mirin: less sugar, more salt to taste)
   - 12g Sugar
   - 10g Ginger, finely grated
 
   Chicken and leek:
   - 400g Boneless, skinless chicken thigh, cut into 3cm pieces
-  - 0.8g Fine salt
-  - 5g Potato starch or cornflour
+  - 1 pinch Fine salt
+  - 5g Corn or potato starch
   - 250g Leek (2 thin ones), white and pale green part, cut into 2.5cm rounds
   - 1 tablespoon Neutral oil
   - 50ml Water
 
   To serve:
-  - 270g Japanese short-grain rice (uncooked)
+  - 270g Japanese short-grain rice, uncooked (basmati works too)
   - 3 Egg yolks
   - 1 Nori sheet, cut into thin strips
   - Shichimi togarashi
-  - A bit of the inner leek, very finely sliced and rinsed
+  - A bit of the inner leek, very finely sliced and rinsed (optional)
 ---
 1. Salt the chicken and leave it while the rice cooks
 
@@ -48,7 +48,7 @@ ingredients: |-
 
 8. Fill the bowls with rice, add the chicken and leek and spoon the sauce over so some of it soaks into the rice
 
-9. Top with an egg yolk, shichimi and the sliced leek, and finish with the nori on top
+9. Top with an egg yolk, shichimi and the sliced leek if using, and finish with the nori on top
 
 Traditionally this is skin-on thigh grilled over charcoal, with Japanese long onion instead of leek. Skinless thigh in a pan ends up closer to teriyaki, but the starch and a hard sear keep it on the right side. The leek needs steaming on its own first, otherwise it's still raw by the time the sauce is done.
 
