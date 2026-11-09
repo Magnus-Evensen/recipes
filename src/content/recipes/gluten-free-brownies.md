@@ -51,4 +51,4 @@ ingredients: |-
 
 11. Cut into 24 pieces with a hot knife
 
-Texture gets better as it cools, so ideally let it cool at room temperature for 3-4 hours before serving. Wrap leftovers airtight and keep at room temperature, as gluten-free bakes dry out faster in the fridge.
+Texture gets better as it cools, so ideally let it cool at room temperature for 3-4 hours before serving. Wrap leftovers airtight. They stay moist in the fridge for at least 2 days.
