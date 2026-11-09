@@ -37,6 +37,8 @@ export interface RecipePageProps {
   ingredients: string[];
   /** Plain-text steps, one per array entry */
   steps: string[];
+  /** Closing note paragraphs after the last step (empty when none) */
+  note?: string[];
   /** Per-serving macros from the KG export; null when not in the graph */
   nutrition: NutritionPerServing | null;
   /** LLM-linked ingredient references per step, index-aligned with `steps`; null when not in the graph */
@@ -132,7 +134,7 @@ function fmtCountdown(ms: number) {
 export function RecipePageIsland({
   title, slug, intro, cuisine, totalTimeMinutes, prepTimeMinutes, cookTimeMinutes, marinadeTimeMinutes,
   servings: defaultServings,
-  image, foodType, tags, ingredients, steps, nutrition, enrichedSteps, enrichedIngredients, journal, basePath,
+  image, foodType, tags, ingredients, steps, note = [], nutrition, enrichedSteps, enrichedIngredients, journal, basePath,
 }: RecipePageProps) {
   const [servings, setServings] = useState(defaultServings);
 
@@ -712,6 +714,24 @@ export function RecipePageIsland({
                 </li>
               ))}
             </ol>
+
+            {/* Closing note — author's voice after the last step, aligned with the step text column */}
+            {note.length > 0 && (
+              <div style={{ marginTop: 'var(--space-2xl)', paddingLeft: 'calc(28px + var(--space-lg))', maxWidth: '62ch' }}>
+                {note.map((para, i) => (
+                  <p key={i} style={{
+                    margin: i === 0 ? 0 : 'var(--space-md) 0 0',
+                    fontFamily: "'EB Garamond', Georgia, serif",
+                    fontStyle: 'italic',
+                    fontSize: 'var(--text-body)',
+                    lineHeight: 1.7,
+                    color: 'var(--color-ink)',
+                  }}>
+                    {para}
+                  </p>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Right-gutter margin rail — wide screens only; narrow screens use .rp-note-inline
