@@ -160,6 +160,8 @@ the gochujang replaced with miso for balance and depth. Quantities, cut and miso
 6. **Next day.** One Korean poster says it's commonly thought better the next day. Potato and tofu
    make it a poor freezer candidate; fridge for 2–3 days.
 7. **Sugar.** Needed at all with onion and gochujang's own sweetness?
+8. **Paste concentration.** A&C 2024 uses roughly half the paste per kilo of pot that the Korean
+   sources do. If the stew tastes thin once salt is right, raise the paste before anything else.
 
 ---
 
