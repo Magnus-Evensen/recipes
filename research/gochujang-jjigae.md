@@ -2,7 +2,7 @@
 dish: 고추장찌개 (gochujang jjigae) — Korean chilli-paste stew
 slug: gochujang-jjigae
 origin: Korea — everyday home cooking, nationwide
-status: researched
+status: graduated
 researched: 2026-11-12
 ---
 
