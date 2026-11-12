@@ -33,22 +33,26 @@ ingredients: |-
   - 4 Spring onions, whites and greens separated
   - Salt to taste
 ---
-1. Heat the oil in a pot over high heat and brown the pork until it has a proper deep crust (in two batches if the pot is crowded, otherwise it steams instead of browning)
+1. Cut the pork into bite-sized pieces
 
-2. Mix the paste in a bowl (if using paprika and chilli flakes, keep them out and add them with the water)
+2. Cut up the potatoes, onion, mushrooms and courgette, cube the tofu and slice the spring onions, keeping the whites and greens separate
 
-3. Take the pot off the heat for a minute, then turn it to low and add the paste and the spring onion whites. Fry for 2–3 minutes, scraping up the bits on the bottom, until the paste darkens and the oil turns red (a splash of water if it catches)
+3. Heat the oil in a pot over high heat and brown the pork until it has a proper deep crust (in two batches if the pot is crowded, otherwise it steams instead of browning)
 
-4. Add the water and dashi powder and bring to a boil
+4. Mix the paste in a bowl (if using paprika and chilli flakes, keep them out and add them with the water)
 
-5. Add the potatoes, onion and mushrooms and boil until a knife meets slight resistance in the potatoes
+5. Take the pot off the heat for a minute, then turn it to low and add the paste and the spring onion whites. Fry for 2–3 minutes, scraping up the bits on the bottom, until the paste darkens and the oil turns red (a splash of water if it catches)
 
-6. Turn down to medium, add the courgette and tofu and cook until the courgette is soft and slightly translucent
+6. Add the water and dashi powder and bring to a boil
 
-7. Taste and season with salt
+7. Add the potatoes, onion and mushrooms and boil until a knife meets slight resistance in the potatoes
 
-8. Stir in the spring onion greens and serve (with rice if you like)
+8. Turn down to medium, add the courgette and tofu and cook until the courgette is soft and slightly translucent
 
-Korean versions use doenjang instead of miso. I use white miso for the balance and depth it gives.
+9. Taste and season with salt
+
+10. Stir in the spring onion greens and serve (with rice if you like)
+
+Korean versions use doenjang instead of miso. We use miso since that is what we usually have.
 
 Keeps 2–3 days in the fridge and is arguably better the next day. Doesn't freeze well because of the potatoes and tofu.
