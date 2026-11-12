@@ -38,7 +38,7 @@ default meat in Korean home recipes; beef, clams, canned tuna and Spam all appea
 | Doenjang | Present in 7/11 | Doenjang : gochujang from **1:6 to 1:2, median ~1:3** | **Miso is standing in for this.** See *Doenjang vs. miso* below |
 | Gochugaru | Present in 10/11 | 0.5–1 part per part gochujang | **Split on timing.** Fried with the paste (A&C, 오하나키친, 반이짝이, 만개 house recipe) vs. stirred into the liquid after the vegetables (Paik) or with the courgette (정미경). Fried gives depth, risks bitterness |
 | Frying the paste | Fry gochujang in the meat fat, low heat, 1–3 min | Off the heat entirely (써지니) → dissolved straight into liquid with no frying (정미경, 강철새잎) | Two Korean sources give the same reason: frying removes the raw, pasty flatness (텁텁함). Everyone warns it burns |
-| Liquid | Water-based | Plain water (Paik) · rice-rinsing water, 쌀뜨물 (A&C, Bapsang, 강철새잎) · anchovy-kelp stock (4 sources) · stock coins, 동전육수 (2) · beef dasida (A&C) | Rice water adds a little starch that helps the paste bind to the broth (Bapsang) |
+| Liquid | Water-based | Plain water (Paik) · rice-rinsing water, 쌀뜨물 (A&C, Bapsang, 강철새잎) · anchovy-kelp stock (4 sources) · stock coins, 동전육수 (2) · beef dasida (A&C) | Rice water adds a little starch that helps the paste bind to the broth (Bapsang). Japanese bonito dashi granules are a workable stand-in for anchovy stock but carry ~40% salt (regular ほんだし) |
 | Final seasoning | Soup soy, 국간장 (*gukganjang*) | + fish sauce / anchovy sauce / 참치액 (5 sources) · salted shrimp, 새우젓 (2) · regular soy (A&C, 오하나키친) · salt | Gukganjang is the Korean default for jjigae; A&C use regular soy + fish sauce + dasida instead |
 | Protein | Pork, any cut with fat | 앞다리살 (picnic shoulder) · 목살 (neck/collar) · 삼겹살 (belly) · 뒷다리살 (leg) · beef · clams · tuna · Spam | Several sources say the cut doesn't matter. Those that brown it say skip the oil if it's fatty |
 | Vegetables | Potato, courgette, onion | + mushrooms (shiitake, oyster, king oyster) · tofu · green chilli · daepa | Potato first, courgette and tofu last — universal |
@@ -51,6 +51,10 @@ Both are fermented soybean pastes, but traditional doenjang is soybeans and salt
 from meju blocks, while miso adds a koji starter grown on rice or barley. The practical result:
 **doenjang is saltier, sharper and funkier; miso is milder and sweeter**, white miso most of all,
 red miso closest to doenjang. Factory doenjang often uses koji too and sits between the two.
+
+**The miso in use is Hikari white miso**, a light-coloured *shinshu*-style miso rather than a
+sweet *saikyo* miso. Its EU label gives **11.5% salt**, the same as doenjang's survey average and
+twice gochujang's. Swapping it in for gochujang roughly doubles the salt of the swapped portion.
 
 So "miso in place of doenjang" is a genuine substitution, not a like-for-like swap. The ratio
 being used — a bit of gochujang replaced — is exactly the role doenjang plays in 7 of 11 sources.
@@ -197,6 +201,8 @@ the gochujang replaced with miso for balance and depth. Quantities, cut and miso
   <https://mediahub.seoul.go.kr/archives/2007781>
 - CJ Dasida beef — Asia Market (en). EU label, 44.1 g salt per 100 g.
   <https://www.asiamarket.ie/cj-dasida-beef-flavour-soup-stock-bouillon-300g.html>
+- Hikari Organic White Miso — Violey (en). EU label, 11.5 g salt per 100 g.
+  <https://www.violey.com/en/hikari-miso-organic-white-miso_p_46328.html>
 - Doenjang vs. miso — Just One Cookbook (en) and Kimchimari (en).
   <https://www.justonecookbook.com/pantry_items/miso/> · <https://kimchimari.com/?p=7859>
 
