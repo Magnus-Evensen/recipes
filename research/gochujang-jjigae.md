@@ -145,8 +145,10 @@ dried anchovies, gochugaru, aehobak and tofu from the bazar.
 
 ## My deviations
 
-**Before this file, several cooks of A&C's 2024 recipe**, with pork instead of beef and part of
-the gochujang replaced with miso for balance and depth. Quantities, cut and miso type not recorded.
+**Before this file, several cooks combining A&C's 2024 recipe and Korean Bapsang's**, with pork
+instead of beef and part of the gochujang replaced with miso (Hikari white) for balance and depth.
+Filling: potato, mushrooms, courgette, onion, pork, tofu, spring onion. Pork browned hard over
+high heat for flavour and texture. Quantities and cut not recorded.
 
 ---
 
