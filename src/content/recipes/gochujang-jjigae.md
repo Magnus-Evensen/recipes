@@ -28,14 +28,14 @@ ingredients: |-
   - 600g Potatoes, cut into 1.5 cm pieces
   - 1 Large onion, cut into chunks
   - 150g Mushrooms, cut into bite-sized pieces
-  - 300g Courgette, cut into half-moons
-  - 300g Firm tofu, cubed
+  - 300g Squash, cut into half-moons
+  - 300g Silken tofu, cubed
   - 4 Spring onions, whites and greens separated
   - Salt to taste
 ---
 1. Cut the pork into bite-sized pieces
 
-2. Cut up the potatoes, onion, mushrooms and courgette, cube the tofu and slice the spring onions, keeping the whites and greens separate
+2. Cut up the potatoes, onion, mushrooms and squash, cube the tofu and slice the spring onions, keeping the whites and greens separate
 
 3. Heat the oil in a pot over high heat and brown the pork until it has a proper deep crust (in two batches if the pot is crowded, otherwise it steams instead of browning)
 
@@ -47,11 +47,13 @@ ingredients: |-
 
 7. Add the potatoes, onion and mushrooms and boil until a knife meets slight resistance in the potatoes
 
-8. Turn down to medium, add the courgette and tofu and cook until the courgette is soft and slightly translucent
+8. Turn down to medium, add the squash and cook until it is soft and slightly translucent
 
 9. Taste and season with salt
 
-10. Stir in the spring onion greens and serve (with rice if you like)
+10. Gently add the tofu and let it warm through (don't stir too much or it breaks up)
+
+11. Stir in the spring onion greens and serve (with rice if you like)
 
 Korean versions use doenjang instead of miso. We use miso since that is what we usually have.
 
